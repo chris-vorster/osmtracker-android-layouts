@@ -3,17 +3,14 @@
  <!-- Main layout, the first to be displayed -->
  <layout name="root">
   <row>
-   <!-- 3 special action buttons -->
+   <!-- 2 special action buttons -->
    <button type="voicerec" label="General" icon="farmwatch_icons/alarm.png" />
-   <button type="picture" label="Spotted" icon="farmwatch_icons/spotted.png" />
+   <button type="picture" label="Burglar 2" icon="farmwatch_icons/terrorist.png" />
+   <button type="tag" label="Burglar" icon="farmwatch_icons/burglar.png" />
   </row>
   <row>
-   <!-- "link" to 2 sub pages -->
-   <button type="page" label="Criminals" targetlayout="criminal" />
-  </row>
-  <row>
-   <!-- Standard tag buttons -->
-   <button type="tag" label="Burglar" icon="farmwatch_icons/burgler.png" />
+   <!-- "link" to sub page -->
+   <button type="page" label="Help" targetlayout="criminal" icon="farmwatch_icons/police.png" />
   </row>
  </layout>
 
@@ -21,6 +18,8 @@
   <row>
    <!-- Two standard tag buttons -->
    <button type="tag" label="Police" icon="farmwatch_icons/police.png" />
+   <button type="tag" label="Police 2" icon="farmwatch_icons/police.png" />
+   <button type="tag" label="Police 3" icon="farmwatch_icons/police.png" />
   </row>
  </layout>
 
