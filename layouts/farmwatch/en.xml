@@ -4,8 +4,8 @@
  <layout name="root">
   <row>
    <!-- 3 special action buttons -->
-   <button type="voicerec" label="General" icon="icons_fw/alarm.png" />
-   <button type="picture" label="Spotted" icon="icons_fw/spotted.png" />
+   <button type="voicerec" label="General" icon="farmwatch_icons/alarm.png" />
+   <button type="picture" label="Spotted" icon="farmwatch_icons/spotted.png" />
   </row>
   <row>
    <!-- "link" to 2 sub pages -->
@@ -13,14 +13,14 @@
   </row>
   <row>
    <!-- Standard tag buttons -->
-   <button type="tag" label="Burglar" icon="icons_fw/burgler.png" />
+   <button type="tag" label="Burglar" icon="farmwatch_icons/burgler.png" />
   </row>
  </layout>
 
  <layout name="criminal">
   <row>
    <!-- Two standard tag buttons -->
-   <button type="tag" label="Police" icon="icons_fw/police.png" />
+   <button type="tag" label="Police" icon="farmwatch_icons/police.png" />
   </row>
  </layout>
 
