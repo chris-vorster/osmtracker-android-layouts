@@ -1,0 +1,27 @@
+<layouts>
+
+ <!-- Main layout, the first to be displayed -->
+ <layout name="root">
+  <row>
+   <!-- 3 special action buttons -->
+   <button type="voicerec" label="General" icon="icons_fw/alarm.png" />
+   <button type="picture" label="Spotted" icon="icons_fw/spotted.png" />
+  </row>
+  <row>
+   <!-- "link" to 2 sub pages -->
+   <button type="page" label="Criminals" targetlayout="criminal" />
+  </row>
+  <row>
+   <!-- Standard tag buttons -->
+   <button type="tag" label="Burglar" icon="icons_fw/burgler.png" />
+  </row>
+ </layout>
+
+ <layout name="criminal">
+  <row>
+   <!-- Two standard tag buttons -->
+   <button type="tag" label="Police" icon="icons_fw/police.png" />
+  </row>
+ </layout>
+
+</layouts>
